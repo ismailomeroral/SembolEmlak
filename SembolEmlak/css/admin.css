@@ -1,0 +1,126 @@
+﻿input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 2px 22px 2px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border: 1px solid black !important;
+}
+
+#customers1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#amanb td, #amanb th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#amanb tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#amanb tr:hover {
+    background-color: #ddd;
+}
+
+#amanb th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#amanb {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+    .customers1 td, .customers1 th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .customers1 tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .customers1 tr:hover {
+        background-color: #ddd;
+    }
+
+    .customers1 th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+.customers1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .customers1 td, .customers1 th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .customers1 tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .customers1 tr:hover {
+        background-color: #ddd;
+    }
+
+    .customers1 th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+.auto-style1 {
+    width: 328px;
+}
+
+.auto-style2 {
+    height: 1569px;
+    width: 100%;
+    font-size: large;
+}
+
+.auto-style3 {
+    width: 328px;
+    height: 95px;
+}
+
+.auto-style4 {
+    height: 95px;
+}
+
+.auto-style5 {
+    width: 96%;
+    height: 68px;
+}
+
+.auto-style6 {
+    width: 116px;
+}

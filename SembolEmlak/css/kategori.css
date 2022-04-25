@@ -1,0 +1,201 @@
+﻿@media only screen and (max-width: 1000px) {
+    .button {
+        display: unset !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #icerik {
+        margin-top: 60px;
+    }
+
+    #icerik2 {
+        width: 58%;
+        margin-right: -50px !important;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #icerik {
+        margin-top: 40px;
+    }
+    #icerik2 {
+        width: 80% !important;
+        margin-right: auto !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #icerik {
+        margin-top: 40px;
+    }
+    #icerik2 {
+        width: 75% !important;
+        margin-right: auto !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #filter {
+        width: 80% !important;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #filter {
+        width: 100% !important;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (min-width:1650px) {
+    #filter {
+        width: 80% !important;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    #filter {
+        width: 80% !important;
+        margin: auto !important;
+    }
+}
+
+.image {
+    z-index: 0;
+    width: 250px;
+    height: 200px;
+}
+
+#icerik2 {
+    min-height: 500px !important;
+    padding-top: 40px;
+}
+
+.buton {
+    font-size: larger !important;
+}
+
+.button {
+    display: none;
+    position: relative;
+    bottom: 35px;
+    left: 130px !important;
+    color: black;
+}
+
+.item {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+.container {
+    margin-left: 60px !important;
+}
+
+.bilgi {
+    float: left;
+    z-index: 1;
+    height: 200px !important;
+    width: 250px !important;
+    position: absolute;
+    bottom: 0px;
+}
+
+.item:hover {
+    transition: ease-in-out font-size 0.25s;
+}
+
+    .item:hover .bilgi {
+        background-color: rgba(157, 155, 155, 0.5);
+        transition: ease-in-out all 0.25s;
+    }
+
+        .item:hover .bilgi span {
+            font-size: 17px;
+        }
+
+    .item:hover .baslik {
+        font-size: 25px !important;
+    }
+
+.item span {
+    display: block;
+    color: black;
+    opacity: 0;
+    transition: ease-in-out all 0.25s;
+}
+
+.item:hover span {
+    color: #1b1e1e;
+    opacity: 1 !important;
+}
+
+.banyo, .ucret, .lokasyon, .oda {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+#filter {
+    width: 87%;
+    margin: auto;
+    height: 50px;
+}
+
+    #filter div {
+        float: left;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
+.searchprice {
+    width: 70px;
+}
+
+#kategorisol {
+    width: 16%;
+    height: 30%;
+    position: fixed;
+    top: 200px;
+    left: 3em;
+}
+
+#icerik2 {
+    float: right;
+    width: 70%;
+    height: auto;
+}
+
+.baslik {
+    width: 170px;
+    border-bottom: 3.5px green solid;
+    margin-bottom: 10px;
+}
+
+.kategori {
+    list-style: none;
+}
+
+    .kategori a {
+        margin-bottom: 2px;
+        width: 90px;
+        text-align: center;
+        color: black;
+        border-bottom: 1px green solid;
+        display: block !important;
+        margin-bottom: 5px;
+    }
+
+        .kategori a:hover {
+            transition: ease-in-out all 0.25s;
+            color: #4f8742;
+        }
